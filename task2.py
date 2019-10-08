@@ -1,5 +1,4 @@
-a = []
-for i in range(3):
-  a.append(int(input()))
-a.sort()
-print(a[1]+a[2])
+a = int(input())
+b = int(input())
+c = int(input())
+print(a+b+c-min(a, b, c))
