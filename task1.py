@@ -5,4 +5,4 @@ if a != b:
 else:
 	a = 0
 b = a
-print(a, b)
+print(str(a)+" "+str(b))
