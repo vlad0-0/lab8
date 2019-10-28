@@ -1,7 +1,8 @@
 x = float(input())
-y = float(input())
-while x == 0 or y == 0:
+while x == 0:
   x = float(input())
+y = float(input())
+while y == 0:
   y = float(input())
 if x > 0 and y > 0:
   print("1")
