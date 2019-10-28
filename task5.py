@@ -16,4 +16,4 @@ else:
     a += c
   else:
     a += n
-print(a+число)
+print(a+"число")
